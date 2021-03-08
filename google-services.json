@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "586199661263",
+    "firebase_url": "https://kazazede-34802.firebaseio.com",
+    "project_id": "kazazede-34802",
+    "storage_bucket": "kazazede-34802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586199661263:android:077089ec13e6ed90a6d5ba",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586199661263-h7q85squk4ujccheuj89anafsgh00vd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Gx5E_Ucww9TXnYcDKiEOmxqlpohpR7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586199661263-h7q85squk4ujccheuj89anafsgh00vd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

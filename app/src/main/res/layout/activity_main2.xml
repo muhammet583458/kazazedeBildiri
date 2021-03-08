@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adınız :"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soyadınız :"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/soyad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numaranız :"
+        android:textSize="30sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıp Adı :"
+        android:textSize="30sp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/kayipad"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="180dp"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıp Soyadı :"
+        android:textSize="30sp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/kayipsoyad"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="230dp"
+        android:layout_alignParentRight="true"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="İl seçiniz :"
+    android:textSize="30sp"
+    android:layout_marginTop="300dp"
+    android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İlçe seçiniz :"
+        android:textSize="30sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_marginTop="362dp"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:text="Açık adres"/>
+    <EditText
+        android:id="@+id/adres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="7"
+        android:minLines="1"
+
+        android:scrollHorizontally="false"
+
+        android:layout_marginTop="500dp"/>
+    <Button
+        android:id="@+id/gndrBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.2in"
+        android:layout_marginLeft="1.7in"
+        android:text="Gönder"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
